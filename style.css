@@ -52,12 +52,17 @@ body{
     text-shadow: 2px 0px 3px black;
     text-decoration: none;
 }
-a:hover{
+/*a:hover{
     cursor: pointer;
     opacity:90%;
     background-color: rgb(32, 32, 228);
 }
-
+*/
+.mkbutton:hover{
+    cursor: pointer;
+    opacity:90%;
+    background-color: rgb(32, 32, 228);
+}
 .footer{
     position: fixed;
    bottom: 0;
@@ -70,16 +75,32 @@ a:hover{
    
    margin: 10px auto 0 auto ;
 }
-#fblogo , #instalogo , #twitterlogo{
+ /* #instalogo , #twitterlogo{
     margin: 3px 10px;
     width: 30px;
     height: 30px;
     justify-items: center;
-    border: 2px solid white;
-    border-radius: 10px;
+    /*border: 2px solid white;
+    border-radius: 10%;
+    margin-bottom : 0;
+
+} */
+
+.instalogo , .twitterlogo , .fblogo {
+    margin: 3px 10px;
+    width: 30px;
+    height: 30px;
+    justify-items: center;
     margin-bottom: 0;
+}
+
+.instalogo , .twitterlogo , .fblogo :hover{
+    opacity: 70%;
+    cursor: pointer;
 
 }
+
+
 #pfooter{
     margin: 3px auto 5px auto;
     font-size: 30px;
